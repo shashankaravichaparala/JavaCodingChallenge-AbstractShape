@@ -27,17 +27,17 @@ public class Circle extends AbstractShape {
 
     // add an executable main() method to test it
     public static void main(String[] args){
-        double r = 1.0;
-        Circle c = new Circle(r);
+        double radius = 1.0;
+        Circle circle = new Circle(radius);
 
-        String type = c.getShapeType();
-        double area = c.getArea();
-        double perimeter = c.getPerimeter();
+        String type = circle.getShapeType();
+        double area = circle.getArea();
+        double perimeter = circle.getPerimeter();
 
         System.out.println("===========================================");
         System.out.println("Circle");
         System.out.println("===========================================");
-        System.out.println("Given radius: " + r);
+        System.out.println("Given radius: " + radius);
         System.out.println("A circle's area will be " + area);
         System.out.println("A circle's perimeter will be " + perimeter);
         System.out.println("===========================================");
